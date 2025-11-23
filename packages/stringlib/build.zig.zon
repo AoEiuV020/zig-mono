@@ -1,0 +1,10 @@
+.{
+    .name = .stringlib,
+    .version = "0.1.0",
+    .fingerprint = 0x858c0f0c9cf2a2cc,
+    .minimum_zig_version = "0.15.0",
+    .dependencies = .{
+        .common = .{ .path = "../common" },
+    },
+    .paths = .{""},
+}

@@ -1,0 +1,10 @@
+.{
+    .name = .mathlib,
+    .version = "0.1.0",
+    .fingerprint = 0x102b55998f7f9fca,
+    .minimum_zig_version = "0.15.0",
+    .dependencies = .{
+        .common = .{ .path = "../common" },
+    },
+    .paths = .{""},
+}

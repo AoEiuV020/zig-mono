@@ -1,0 +1,12 @@
+.{
+    .name = .zig_mono,
+    .version = "0.1.0",
+    .fingerprint = 0xe5f6a7b8c9d0e1f2,
+    .minimum_zig_version = "0.15.0",
+    .dependencies = .{
+        .common = .{ .path = "packages/common" },
+        .mathlib = .{ .path = "packages/mathlib" },
+        .stringlib = .{ .path = "packages/stringlib" },
+    },
+    .paths = .{""},
+}

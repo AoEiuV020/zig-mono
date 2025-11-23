@@ -1,0 +1,12 @@
+.{
+    .name = .static_app,
+    .version = "0.1.0",
+    .fingerprint = 0x3f5750fac04d34c,
+    .minimum_zig_version = "0.15.0",
+    .dependencies = .{
+        .common = .{ .path = "../../packages/common" },
+        .mathlib = .{ .path = "../../packages/mathlib" },
+        .stringlib = .{ .path = "../../packages/stringlib" },
+    },
+    .paths = .{""},
+}
